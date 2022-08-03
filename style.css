@@ -22,6 +22,11 @@ header{
     margin-right: 1em;
 }
 
+.svg2{
+    width: 1em;
+    height: 1em;
+}
+
 .perfil{
     margin: 0 1em;
 }
@@ -30,6 +35,12 @@ header{
     width: auto;
     height: 18em;
     z-index: 0;
+}
+
+.info{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 #fotoPerfil{
@@ -55,4 +66,13 @@ header{
 .nombre{
     font-size: 2em;
     font-family: 'Dancing Script', cursive;
+}
+
+.info_perfil{
+    color: rgb(106, 144, 144);
+}
+
+.unsam{
+    width: 7em;
+    height: 5em;
 }
